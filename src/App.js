@@ -1,4 +1,5 @@
 import './App.css';
+
 import Introduction from './components/Introduction'
 import Sourcefilebasics from './components/Sourcefilebasics'
 import Sourcefilestructure from './components/Source_file_structure'
@@ -10,6 +11,15 @@ import Policies from './components/Policies'
 import Appendices from './components/Appendices'
 import Nexlesoftcustom from './components/Nexlesoft_custom'
 import IntroductionDetail from './components/introduction-detail';
+import Sourcefilebasicsdetail from './components/Sourcefilebasics-detail';
+import Sourcefilestructuredetail from './components/Source-file-structure-detail';
+import Formattingdetail from './components/Formatting-detail';
+import Languagefeaturesdetail from './components/Language_features-detail';
+import Namingdetail from './components/Naming-detail';
+import JSDocdetail from './components/JSDoc-detail';
+import Policiesdetail from './components/Policies-detail';
+import Appendicesdetail from './components/Appendices-detail';
+import Nexlesoftcustomdetail from './components/Nexlesoft_custom-detail';
 function App() {
   return (
     <div className="App">
@@ -38,6 +48,15 @@ function App() {
       </table>
     </div>
     <IntroductionDetail />
+    <Sourcefilebasicsdetail/>
+    <Sourcefilestructuredetail/>
+    <Formattingdetail/>
+    <Languagefeaturesdetail/>
+    <Namingdetail/>
+    <JSDocdetail/>
+    <Policiesdetail/>
+    <Appendicesdetail/>
+    <Nexlesoftcustomdetail/>
   </div>
   
   );

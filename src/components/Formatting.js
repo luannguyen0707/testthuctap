@@ -34,9 +34,6 @@ const Formatting = () => {
       <dd>
         <a href="#formatting-comments">4.8 Comments</a>
       </dd>
-      <dd>
-        <a href="#file-implementation">3.7 The file’s implementation</a>
-      </dd>
     </dl>
   );
 };

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 
 const introductionDetail = () => {
@@ -5,8 +6,8 @@ const introductionDetail = () => {
     <div>
       <h2 id="introduction"> 1 Introduction</h2>
       <p>
-        "This document serves as the"
-        <strong>complete</strong> "definition of Google’s coding standards for
+        This document serves as the
+        <strong> complete </strong> definition of Google’s coding standards for
         source code in the JavaScript programming language. A JavaScript source
         file is described as being"
         <em>in Google Style</em>" if and only if it adheres to the rules
@@ -24,7 +25,7 @@ const introductionDetail = () => {
       <ol>
         <li>
           The term
-          <em>comment</em>
+          <em> comment </em>
           always refers to
           <em> implementation </em>
           comments. We do not use the phrase
@@ -32,6 +33,7 @@ const introductionDetail = () => {
           for both human-readable text and machine-readable annotations within
           <code>/** … */</code>
         </li>
+        <br></br>
         <li>
           This Style Guide uses
           <a href="http://tools.ietf.org/html/rfc2119"> RFC 2119 </a>
